@@ -6,3 +6,6 @@ export * from './Badge';
 export * from './Toast';
 export * from './Table';
 export * from './Skeleton';
+export * from './SectionHeading';
+export * from './PageHero';
+export * from './FacultyCard';
