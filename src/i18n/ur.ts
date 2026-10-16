@@ -1,0 +1,91 @@
+import { TranslationKey } from './en';
+
+export const ur: Record<TranslationKey, string> = {
+  // Navigation
+  'nav.home': 'مرکزی صفحہ',
+  'nav.about': 'ہمارے بارے میں',
+  'nav.academics': 'تعلیمی نظام',
+  'nav.admissions': 'داخلے',
+  'nav.apply_now': 'آن لائن داخلہ',
+  'nav.faculty': 'اساتذہ کرام',
+  'nav.gallery': 'تصویری گیلری',
+  'nav.news': 'خبریں و اعلانات',
+  'nav.events': 'تقاریب',
+  'nav.downloads': 'ڈاؤن لوڈز',
+  'nav.results': 'امتحانی نتائج',
+  'nav.contact': 'رابطہ کریں',
+  'nav.admin_portal': 'اسٹاف پورٹل',
+
+  // Common UI
+  'common.loading': 'لوڈ ہو رہا ہے...',
+  'common.submit': 'جمع کرائیں',
+  'common.submitting': 'ارسال ہو رہا ہے...',
+  'common.cancel': 'منسوخ',
+  'common.save': 'محفوظ کریں',
+  'common.search': 'تلاش کریں',
+  'common.view_all': 'سب دیکھیں',
+  'common.read_more': 'مزید پڑھیں',
+  'common.close': 'بند کریں',
+  'common.back': 'واپس',
+  'common.details': 'تفصیلات',
+  'common.status': 'حیثیت',
+  'common.date': 'تاریخ',
+  'common.actions': 'اقدامات',
+  'common.refresh': 'تازہ کریں',
+  'common.empty': 'کوئی ریکارڈ نہیں ملا۔',
+  'common.error': 'کوئی غیر متوقع مسئلہ پیش آیا۔',
+  'common.learn_lead_inspire': 'سیکھیں، رہنمائی کریں، متاثر کریں۔',
+
+  // Statuses
+  'status.pending': 'زیر غور',
+  'status.approved': 'منظور شدہ',
+  'status.rejected': 'مسترد شدہ',
+  'status.unread': 'غیر خواندہ',
+  'status.read': 'پڑھا گیا',
+  'status.replied': 'جواب دیا گیا',
+  'status.archived': 'آرکائیو',
+  'status.draft': 'ڈرافٹ',
+  'status.published': 'شائع شدہ',
+
+  // Footer
+  'footer.quick_links': 'اہم روابط',
+  'footer.contact_info': 'رابطہ کی تفصیلات',
+  'footer.socials': 'سوشل میڈیا',
+  'footer.rights': '© 2027 انسپائر سکول۔ جملہ حقوق محفوظ ہیں۔',
+  'footer.office_hours': 'دفتری اوقات',
+  'footer.phone': 'فون نمبر',
+  'footer.whatsapp': 'واٹس ایپ',
+  'footer.email': 'ای میل',
+  'footer.address': 'پتہ',
+
+  // Home Sections Placeholders
+  'home.hero_title': 'مستقبل کے معماروں کی تربیت گاہ',
+  'home.hero_subtitle': 'پلے گروپ تا میٹرک معیاری تعلیم کا قابل اعتماد ادارہ، ماڈل ٹاؤن لاہور۔',
+  'home.sec_hero': 'ہیرو سلائیڈر — مرحلہ A2',
+  'home.sec_stats': 'اہم اعداد و شمار — مرحلہ A2',
+  'home.sec_about': 'تعارفی جھلک — مرحلہ A2',
+  'home.sec_academics': 'تعلیمی درجات — مرحلہ A2',
+  'home.sec_principal': 'پیغام پرنسپل — مرحلہ A2',
+  'home.sec_news_events': 'تازہ ترین خبریں و تقاریب — مرحلہ A2',
+  'home.sec_gallery': 'تصویری جھلکیاں — مرحلہ A2',
+  'home.sec_quote': 'اقوال و ترغیب — مرحلہ A2',
+  'home.sec_cta': 'داخلہ بینر — مرحلہ A2',
+
+  // Forms & Auth
+  'form.email': 'ای میل پتہ',
+  'form.password': 'پاس ورڈ',
+  'form.login': 'لاگ ان کریں',
+  'form.role': 'کردار کا انتخاب',
+  'form.login_title': 'اسٹاف و ایڈمن لاگ ان',
+  'form.invalid_credentials': 'درج کردہ ای میل یا پاس ورڈ غلط ہے۔',
+  'form.student_name': 'طالب علم کا نام',
+  'form.father_name': 'والد کا نام',
+  'form.class': 'جماعت',
+  'form.roll_no': 'رول نمبر',
+  'form.exam': 'امتحان',
+
+  // Toast
+  'toast.login_success': 'کامیابی کے ساتھ لاگ ان ہو گئے!',
+  'toast.logout_success': 'لاگ آؤٹ ہو گیا۔',
+  'toast.action_success': 'عمل مکمل کر لیا گیا۔',
+};

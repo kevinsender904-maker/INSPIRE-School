@@ -1,0 +1,6 @@
+{
+  "name": "INSPIRE School",
+  "description": "INSPIRE School — Learn. Lead. Inspire. Premier educational institution in Lahore, Pakistan offering Playgroup through Matric (Class 10).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

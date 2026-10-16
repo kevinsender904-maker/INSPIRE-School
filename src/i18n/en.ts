@@ -1,0 +1,91 @@
+export const en = {
+  // Navigation
+  'nav.home': 'Home',
+  'nav.about': 'About',
+  'nav.academics': 'Academics',
+  'nav.admissions': 'Admissions',
+  'nav.apply_now': 'Apply Now',
+  'nav.faculty': 'Faculty',
+  'nav.gallery': 'Gallery',
+  'nav.news': 'News',
+  'nav.events': 'Events',
+  'nav.downloads': 'Downloads',
+  'nav.results': 'Results',
+  'nav.contact': 'Contact',
+  'nav.admin_portal': 'Staff Portal',
+
+  // Common UI
+  'common.loading': 'Loading...',
+  'common.submit': 'Submit',
+  'common.submitting': 'Submitting...',
+  'common.cancel': 'Cancel',
+  'common.save': 'Save',
+  'common.search': 'Search',
+  'common.view_all': 'View All',
+  'common.read_more': 'Read More',
+  'common.close': 'Close',
+  'common.back': 'Back',
+  'common.details': 'Details',
+  'common.status': 'Status',
+  'common.date': 'Date',
+  'common.actions': 'Actions',
+  'common.refresh': 'Refresh',
+  'common.empty': 'No records found.',
+  'common.error': 'An unexpected error occurred.',
+  'common.learn_lead_inspire': 'Learn. Lead. Inspire.',
+
+  // Statuses
+  'status.pending': 'Pending',
+  'status.approved': 'Approved',
+  'status.rejected': 'Rejected',
+  'status.unread': 'Unread',
+  'status.read': 'Read',
+  'status.replied': 'Replied',
+  'status.archived': 'Archived',
+  'status.draft': 'Draft',
+  'status.published': 'Published',
+
+  // Footer
+  'footer.quick_links': 'Quick Links',
+  'footer.contact_info': 'Contact Info',
+  'footer.socials': 'Follow Us',
+  'footer.rights': '© 2027 INSPIRE School. All rights reserved.',
+  'footer.office_hours': 'Office Hours',
+  'footer.phone': 'Phone',
+  'footer.whatsapp': 'WhatsApp',
+  'footer.email': 'Email',
+  'footer.address': 'Address',
+
+  // Home Sections Placeholders
+  'home.hero_title': 'Nurturing Leaders of Tomorrow',
+  'home.hero_subtitle': 'Comprehensive quality education from Playgroup through Matric (Class 10) in Lahore.',
+  'home.sec_hero': 'Hero Slider — Phase A2',
+  'home.sec_stats': 'Quick Stats — Phase A2',
+  'home.sec_about': 'About Snippet — Phase A2',
+  'home.sec_academics': 'Academics Levels — Phase A2',
+  'home.sec_principal': 'Principal Message — Phase A2',
+  'home.sec_news_events': 'Latest News & Events — Phase A2',
+  'home.sec_gallery': 'Gallery Preview — Phase A2',
+  'home.sec_quote': 'Quote Strip — Phase A2',
+  'home.sec_cta': 'CTA Band — Phase A2',
+
+  // Forms & Auth
+  'form.email': 'Email Address',
+  'form.password': 'Password',
+  'form.login': 'Log In',
+  'form.role': 'Role Switcher',
+  'form.login_title': 'Staff & Admin Portal',
+  'form.invalid_credentials': 'Invalid email or password.',
+  'form.student_name': 'Student Name',
+  'form.father_name': 'Father Name',
+  'form.class': 'Class',
+  'form.roll_no': 'Roll Number',
+  'form.exam': 'Examination',
+
+  // Toast
+  'toast.login_success': 'Successfully logged in!',
+  'toast.logout_success': 'Successfully logged out!',
+  'toast.action_success': 'Action completed successfully.',
+};
+
+export type TranslationKey = keyof typeof en;
